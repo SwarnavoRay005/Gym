@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gymkhana</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="img/logo.jpg" alt="Gym Logo">
+            <div>Express Fitness</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <ul class="navbar">
+                    <li><a href="#" class="active">Home </a></li>
+                    <li><a href="#">About Us </a></li>
+                    <li><a href="#">Fitness Calculator </a></li>
+                    <li><a href="#">Contact Us </a></li>
+                </ul>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">
+                Contact us
+            </button>
+            <button class="btn">
+                Help
+            </button>
+        </div>
+    </header>
+    <div class="container">
+        <h3>Mandatory to Enroll:</h3>
+        <form action="noaction.php">
+            <div class="form-group">
+                <label for="name">Name:<br></label>
+                <input type="text" name="myname" id="name" placeholder="Enter Your Name">
+            </div>
+            <div class="form-group">
+                <label for="age">Age:<br></label>
+                <input type="number" name="myage" id="age" placeholder="Enter Your Age">
+            </div>
+            <div class="form-group">
+                <h3>Gender: </h3>
+                <label for="male">Male:</label>               
+                <input type="radio" name="mygender" id="male"><br>
+                <label for="female">Female:</label>
+                <input type="radio" name="mygender" id="female"><br>
+                <label for="others">Others:</label>
+                <input type="radio" name="mygender" id="others"><br>
+            </div><br>
+            <div class="form-group">
+                <label for="contact">Contact Number:<br></label>
+                <input type="text" name="mynumber" id="contact" placeholder="Enter Your Contact">
+            </div>
+            <button class="btn">SUBMIT</button><input type="reset" value="RESET NOW">
+        </form>
+</body>
+</html>

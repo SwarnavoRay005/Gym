@@ -1,0 +1,106 @@
+body {
+  font-family: "Oswald", sans-serif;
+  color: aliceblue;
+  background-image: url("img/bg2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.left {
+  display: inline-block;
+  position: absolute;
+  left: 44px;
+  top: 22px;
+}
+
+.mid {
+  display: block;
+  margin: 33px auto;
+  width: 50%;
+}
+
+.right {
+  display: inline-block;
+  position: absolute;
+  right: 34px;
+  top: 24px;
+}
+
+.navbar li {
+  display: inline-block;
+}
+
+.navbar li a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 13px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+  text-decoration: underline;
+  color: yellow;
+}
+
+.left img {
+  height: 115px;
+}
+
+.left div {
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  line-height: 29px;
+  text-decoration: underline;
+}
+
+.btn {
+  font-family: "Oswald", sans-serif;
+  margin: -1px 20px;
+  padding: 8px 11px;
+  border: 2px solid grey;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: rgb(243, 243, 98);
+}
+
+.container {
+  border: 2px solid white;
+  display: inline-block;
+  padding: 31px 49px;
+  margin: 65px 419px;
+  width: 28%;
+  border-radius: 46px;
+  background-color: black;
+  text-align: center;
+}
+
+h3 {
+  text-decoration: underline;
+}
+
+.form-group input {
+  text-align: center;
+  border: gold;
+  border-radius: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 3px;
+  margin: 5px;
+}
+
+.container button {
+  padding: 10px 17px;
+  margin: 23px 26px;
+}
+
+input[type="reset"] {
+  border-radius: 20px;
+  padding: 12px 15px;
+  margin: 0px -6px;
+}
+input[type="reset"]:hover {
+  background-color: rgb(243, 243, 98);
+}
